@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Instalando fonts
+echo "Instalando fonts"
+mkdir ~/.fonts
+cp ./mononoki/* ~/.fonts
+
+
+# Move settings file to user config
+echo "Movendo configuração do editor"
+mv ./settings.json ~/.config/Code/User
+
+# Instalando extenções
+echo "Instalando eslint"
+code --install-extension dbaeumer.vscode-eslint
+echo "Instalando standard style"
+code --install-extension chenxsan.vscode-standardjs
+echo "Instalando preview markdown"
+code --install-extension shd101wyy.markdown-preview-enhanced
+
+echo "Pronto."
+sleep 1

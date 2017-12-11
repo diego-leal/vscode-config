@@ -1,0 +1,10 @@
+{
+    "editor.fontFamily": "'Mononoki', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": 0,
+    "explorer.autoReveal": false,
+    "editor.renderWhitespace": "boundary",
+    "workbench.startupEditor": ".js",
+    "editor.minimap.enabled": false
+}
