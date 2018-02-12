@@ -8,7 +8,7 @@ cp ./mononoki/* ~/.fonts
 
 # Move settings file to user config
 echo "Movendo configuração do editor"
-mv ./settings.json ~/.config/Code/User
+cp ./settings.json ~/.config/Code/User
 
 # Instalando extenções
 echo "Instalando eslint"
