@@ -5,6 +5,7 @@
     "window.zoomLevel": 0,
     "explorer.autoReveal": false,
     "editor.renderWhitespace": "boundary",
-    "workbench.startupEditor": ".js",
-    "editor.minimap.enabled": false
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd"
 }
