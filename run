@@ -5,18 +5,15 @@ echo "Instalando fonts"
 mkdir ~/.fonts
 cp ./mononoki/* ~/.fonts
 
+echo "Instalando tema"
+code --install-extensions wesbos.theme-cobalt2
 
 # Move settings file to user config
 echo "Movendo configuração do editor"
 cp ./settings.json ~/.config/Code/User
 
 # Instalando extenções
-echo "Instalando eslint"
-code --install-extension dbaeumer.vscode-eslint
-echo "Instalando standard style"
-code --install-extension chenxsan.vscode-standardjs
-echo "Instalando preview markdown"
-code --install-extension shd101wyy.markdown-preview-enhanced
+./extensions
 
 echo "Pronto."
 sleep 1
