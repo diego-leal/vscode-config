@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Instalando fonts
+# Instalando fonts e temas
 echo "Instalando fonts"
 mkdir ~/.fonts
 cp ./mononoki/* ~/.fonts
@@ -8,12 +8,13 @@ cp ./mononoki/* ~/.fonts
 echo "Instalando tema"
 code --install-extensions wesbos.theme-cobalt2
 
+# Instalando extenções
+./extensions
+
 # Move settings file to user config
 echo "Movendo configuração do editor"
 cp ./settings.json ~/.config/Code/User
-
-# Instalando extenções
-./extensions
+cp ~/.vscode/extensions/wesbos.theme*/cobalt2-custom-hacks.css ~/.vscode/cobalt2-custom-hacks.css
 
 echo "Pronto."
 sleep 1
