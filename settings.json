@@ -6,7 +6,7 @@
     "editor.minimap.enabled": false,
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Cobalt2",
-    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Operator Mono Light', Mononoki, Monaco, Menlo, 'Courier New', monospace",
     "editor.fontSize": 16,
     "editor.lineHeight": 26,
     "editor.letterSpacing": 0.5,

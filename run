@@ -4,6 +4,7 @@
 echo "Instalando fonts"
 mkdir ~/.fonts
 cp ./mononoki/* ~/.fonts
+cp ./operator-mono/* ~/.fonts
 
 echo "Instalando tema"
 code --install-extensions wesbos.theme-cobalt2
