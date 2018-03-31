@@ -11,4 +11,4 @@ code --install-extension jchannon.csharpextensions
 echo "Instalando utils extensions"
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension Rubymaniac.vscode-paste-and-indent
-code --install-extension be5invis.vscode-custom-css
+

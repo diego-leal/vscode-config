@@ -6,8 +6,9 @@ mkdir ~/.fonts
 cp ./mononoki/* ~/.fonts
 cp ./operator-mono/* ~/.fonts
 
-echo "Instalando tema"
-code --install-extensions wesbos.theme-cobalt2
+# Instalando icons e temas
+echo "Instalando icons e temas"
+code --install-extension emmanuelbeziat.vscode-great-icons
 
 # Instalando extenções
 ./extensions
@@ -15,7 +16,6 @@ code --install-extensions wesbos.theme-cobalt2
 # Move settings file to user config
 echo "Movendo configuração do editor"
 cp ./settings.json ~/.config/Code/User
-cp ~/.vscode/extensions/wesbos.theme*/cobalt2-custom-hacks.css ~/.vscode/cobalt2-custom-hacks.css
 
 echo "Pronto."
 sleep 1
