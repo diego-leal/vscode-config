@@ -2,13 +2,14 @@
 
 # Instalando fonts e temas
 echo "Instalando fonts"
-mkdir ~/.fonts
+mkdir -p ~/.fonts
 cp ./mononoki/* ~/.fonts
 cp ./operator-mono/* ~/.fonts
 
 # Instalando icons e temas
 echo "Instalando icons e temas"
 code --install-extension emmanuelbeziat.vscode-great-icons
+code --install-extension dracula-theme.theme-dracula
 
 # Instalando extenções
 ./extensions
