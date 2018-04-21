@@ -1,14 +1,13 @@
 #!/bin/bash
 
-echo "Instalando eslint"
-code --install-extension dbaeumer.vscode-eslint
-
 echo "Instalando c# extensions"
 code --install-extension Leopotam.csharpfixformat
 code --install-extension ms-vscode.csharp
 code --install-extension jchannon.csharpextensions
 
 echo "Instalando utils extensions"
+code --install-extension esbenp.prettier-vscode
+code --install-extension dbaeumer.vscode-eslint
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension Rubymaniac.vscode-paste-and-indent
 
